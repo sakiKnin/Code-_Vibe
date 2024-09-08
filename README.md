@@ -1,9 +1,7 @@
 # Code-_Vibe
 Programming ability test for Core Vibe
 
-Aplikacija se pokreće tako da se podigne docker u kojem je sadržana postgres baza.
-
-************************
+***********************************************************************************************************************
 
 1. Podizanje baze:
 
@@ -31,7 +29,7 @@ Aplikacija se pokreće tako da se podigne docker u kojem je sadržana postgres b
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
 
-***********************
+**********************************************************************************************************************
 
 2. Podizanje aplikacije
 
