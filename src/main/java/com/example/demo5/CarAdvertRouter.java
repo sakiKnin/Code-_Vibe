@@ -44,7 +44,7 @@ public class CarAdvertRouter {
                             operation = @Operation(
                                 tags = {"Get all adverts"},
                                 description = "Returns a list of adverts and sorts them by query attribute sortby, if present, if not sorts by id",
-                                summary = "Endpoint for featching car adverts",
+                                summary = "Endpoint fetches all car adverts and sorts them by quer param sortby, if not provided sorts by id",
                                 operationId = "getAllCarAdverts", 
                                 responses = {
                                     @ApiResponse(responseCode = "200", 
@@ -76,7 +76,7 @@ public class CarAdvertRouter {
                             operation = @Operation(
                                     tags = {"Get advert by id"},
                                     description = "Returns one advert form the cart_advert table with status 200 if present, if not returns status 404",
-                                    summary = "Endpoint returns an advert",
+                                    summary = "Endpoint returns an advert selected by id",
                                     operationId = "getCarAdvertById", 
                                     responses = {
                                         @ApiResponse(responseCode = "200", 
@@ -108,7 +108,7 @@ public class CarAdvertRouter {
                             operation = @Operation(
                                 tags = {"Create an advert"},
                                 description = "Inserts an advert in the cart_advert table",
-                                summary = "Endpoint for car advert creation",
+                                summary = "Endpoint creats a car advert",
                                 operationId = "insertCarAdvert", 
                                 responses = {
                                     @ApiResponse(responseCode = "200", 
@@ -146,7 +146,7 @@ public class CarAdvertRouter {
                             operation = @Operation(
                                 tags = {"Edit an advert"},
                                 description = "Edits an advert in the cart_advert table",
-                                summary = "Endpoint for car advert edition",
+                                summary = "Endpoint edits an advert",
                                 operationId = "editCarAdvert", 
                                 responses = {
                                     @ApiResponse(responseCode = "200", 
@@ -180,7 +180,7 @@ public class CarAdvertRouter {
                             operation = @Operation(
                                 tags = {"Remove an advert"},
                                 description = "Removes an advert from the cart_advert table, id should be provided",
-                                summary = "Endpoint for car advert removal",
+                                summary = "Endpoint removes a car advert",
                                 operationId = "removeCarAdvertById", 
                                 responses = {
                                     @ApiResponse(responseCode = "204", 
