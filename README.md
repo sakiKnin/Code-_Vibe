@@ -33,12 +33,21 @@ Programming ability test for Core Vibe
 
 2. Podizanje aplikacije
 
-   Otvorimo terminal te se pozicioniramo u demo5 te izvršimo (MAC OS) ./gradlew build kako bi se generirla .jar datoteka.
-     
-   Nakon toga pokrenemo aplikaciju:
-     java -jar build/libs/demo5-0.0.1-SNAPSHOT.jar
-
-   Swaggere OpenAPI se nalazi na : http://localhost:8080/webjars/swagger-ui/index.html
-
+    Otvorimo terminal te se pozicioniramo u demo5 te izvršimo (MAC OS) 
    
+      >>>./gradlew build 
+      
+   kako bi se izgenerirla .jar datoteka.
+     
+     Nakon toga pokrenemo aplikaciju:
+     >>>java -jar build/libs/demo5-0.0.1-SNAPSHOT.jar
 
+   Swaggere OpenAPI se nalazi na : 
+                http://localhost:8080/webjars/swagger-ui/index.html
+
+   Basic autorizacija: username: user, password: password
+
+>>
+>>>
+>>>>
+>>>>>
